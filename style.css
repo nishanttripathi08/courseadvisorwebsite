@@ -1,0 +1,147 @@
+* {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+h2, p, h4 {
+    text-align: center;
+    color: black;
+}
+
+header {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(191, 87, 0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6f8;
+}
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 24px;
+    margin: 24px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.dropdown {
+    display: inline-block;
+    margin-top: 20px;
+}
+.dropdown button {
+    background-color: rgb(191, 87, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width:  100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.dropdown a:hover {
+    background-color: hsl(0, 0%, 90%);
+}
+
+select {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid rgb(191, 87, 0);
+    border-radius: 6px;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    cursor: pointer;
+}
+
+option {
+    color: black;
+}
+
+.options {
+    text-align: center;
+}
+
+.progress-container {
+    width: 80%;
+    height: 20px;
+    background: #ddd;
+    border-radius: 20px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: rgb(191, 87, 0);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: width 0.3s ease;
+}
+
+#progress-text {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#question {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;   
+    margin: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#Yes {
+    background-color: green;
+}
+
+#No {
+    background-color: red;
+}
